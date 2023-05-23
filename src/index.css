@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  background-color: rgb(21, 21, 21);
+}
+
+.App {
+  background-color: rgb(21, 21, 21);
+  margin: auto;
+}
+
+.container {
+  color: rgb(245, 245, 245);
+}
+.star_wars {
+  color: #000;
+}
+
+
