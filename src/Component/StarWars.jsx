@@ -33,8 +33,10 @@ function StarWars() {
 
             <footer className='link-below'>
               <a
-                href=""
-                className="link1">
+                href="https://www.starwars.com/"
+                className="link1"
+                aria-disabled
+                >
                 More Info
               </a>
             </footer>
@@ -54,8 +56,10 @@ function StarWars() {
 
             <footer className='link-below'>
               <a
-                href=""
-                className="link1">
+                href="https://www.starwars.com/"
+                className="link1"
+                aria-disabled
+                >
                 More Info
               </a>
             </footer>
@@ -75,8 +79,10 @@ function StarWars() {
 
             <footer className='link-below'>
               <a
-                href=""
-                className="link1">
+                href="https://www.starwars.com/"
+                className="link1"
+                aria-disabled
+                >
                 More Info
               </a>
             </footer>
@@ -96,8 +102,10 @@ function StarWars() {
 
             <footer className='link-below'>
               <a
-                href=""
-                className="link1">
+                href="https://www.starwars.com/"
+                className="link1"
+                aria-disabled
+                >
                 More Info
               </a>
             </footer>
@@ -117,8 +125,10 @@ function StarWars() {
 
             <footer className='link-below'>
               <a
-                href=""
-                className="link1">
+                href="https://www.starwars.com/"
+                className="link1"
+                aria-disabled
+                >
                 More Info
               </a>
             </footer>
@@ -138,8 +148,10 @@ function StarWars() {
 
             <footer className='link-below'>
               <a
-                href=""
-                className="link1">
+                href="https://www.starwars.com/"
+                className="link1"
+                aria-disabled
+                >
                 More Info
               </a>
             </footer>
