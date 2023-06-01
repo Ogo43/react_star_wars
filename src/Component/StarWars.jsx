@@ -33,7 +33,7 @@ function StarWars() {
 
             <footer className='link-below'>
               <a
-                href="https://www.amazon.com/Star-Wars-Force-Starter-including/dp/B01MYFBWOB"
+                href=""
                 className="link1">
                 More Info
               </a>
@@ -54,7 +54,7 @@ function StarWars() {
 
             <footer className='link-below'>
               <a
-                href="https://www.amazon.com/Star-Wars-Force-Starter-including/dp/B01MYFBWOB"
+                href=""
                 className="link1">
                 More Info
               </a>
@@ -75,7 +75,7 @@ function StarWars() {
 
             <footer className='link-below'>
               <a
-                href="https://www.amazon.com/Star-Wars-Force-Starter-including/dp/B01MYFBWOB"
+                href=""
                 className="link1">
                 More Info
               </a>
@@ -96,7 +96,7 @@ function StarWars() {
 
             <footer className='link-below'>
               <a
-                href="https://www.amazon.com/Star-Wars-Force-Starter-including/dp/B01MYFBWOB"
+                href=""
                 className="link1">
                 More Info
               </a>
@@ -117,7 +117,7 @@ function StarWars() {
 
             <footer className='link-below'>
               <a
-                href="https://www.amazon.com/Star-Wars-Force-Starter-including/dp/B01MYFBWOB"
+                href=""
                 className="link1">
                 More Info
               </a>
@@ -138,7 +138,7 @@ function StarWars() {
 
             <footer className='link-below'>
               <a
-                href="https://www.amazon.com/Star-Wars-Force-Starter-including/dp/B01MYFBWOB"
+                href=""
                 className="link1">
                 More Info
               </a>
