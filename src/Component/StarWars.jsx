@@ -35,7 +35,6 @@ function StarWars() {
               <a
                 href="https://www.starwars.com/"
                 className="link1"
-                aria-disabled
                 >
                 More Info
               </a>
@@ -58,7 +57,6 @@ function StarWars() {
               <a
                 href="https://www.starwars.com/"
                 className="link1"
-                aria-disabled
                 >
                 More Info
               </a>
@@ -81,7 +79,6 @@ function StarWars() {
               <a
                 href="https://www.starwars.com/"
                 className="link1"
-                aria-disabled
                 >
                 More Info
               </a>
@@ -104,7 +101,6 @@ function StarWars() {
               <a
                 href="https://www.starwars.com/"
                 className="link1"
-                aria-disabled
                 >
                 More Info
               </a>
@@ -127,7 +123,6 @@ function StarWars() {
               <a
                 href="https://www.starwars.com/"
                 className="link1"
-                aria-disabled
                 >
                 More Info
               </a>
@@ -150,7 +145,6 @@ function StarWars() {
               <a
                 href="https://www.starwars.com/"
                 className="link1"
-                aria-disabled
                 >
                 More Info
               </a>
