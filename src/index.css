@@ -115,10 +115,8 @@ body {
 
 .sub-content {
   background-color: rgba(34, 31, 31, 0.871);
-  /* border: 0.1px solid black; */
   color: rgb(255, 255, 255);
   transform: perspective(1px) translateZ(0px);
-  /* box-shadow: transparent 0px 0px 10px 3px, rgb(0, 0, 0) 0px 0px 10px; */
   transition: all 0.3s ease 0s;
   overflow: hidden;
   height: 330px; 
