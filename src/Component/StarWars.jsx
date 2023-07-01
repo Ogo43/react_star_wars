@@ -1,5 +1,4 @@
-import React from "react";
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 
 const StarWars = () => {
   
@@ -14,8 +13,8 @@ const StarWars = () => {
       } catch (error) {
         console.log("Error occurred:", error);
       } 
-      }
-      
+      };
+
       fetchInfo();
   }, []);
   
@@ -40,29 +39,53 @@ const StarWars = () => {
 
       <main className="content_general">
         <div className="content">
-        
+          {filmData?.results ? (
+          <div className="sub-title1">
+          <div className="sub-content">
+          <h3 className="title1">The New Hope</h3>
+          <p className="date1">May 25, 1977</p>
+
+          <p className="content1">
+             It is a period of civil war. Rebel spaceships, striking from a hidden base, have won their first victory against the evil Galactic Empire. During the battle, Rebel spies managed to steal secret plans to the Empire's ultimate weapon, the DEATH STAR, ...
+          </p>
+
+          <hr className='break-line'/>
+
+          <footer className='link-below'>
+            <a
+              href="https://www.starwars.com/"
+              className="link1"
+              >
+              More Info
+            </a>
+          </footer>
+          </div>
+        </div>
+          ) : (
+            <div className="failed">Loading...</div>
+          )}
         
         {/* <div className="sub-title1">
-            <div className="sub-content">
-            <h3 className="title1">The New Hope</h3>
-            <p className="date1">May 25, 1977</p>
+          <div className="sub-content">
+          <h3 className="title1">The New Hope</h3>
+          <p className="date1">May 25, 1977</p>
 
-            <p className="content1">
-               It is a period of civil war. Rebel spaceships, striking from a hidden base, have won their first victory against the evil Galactic Empire. During the battle, Rebel spies managed to steal secret plans to the Empire's ultimate weapon, the DEATH STAR, ...
-            </p>
+          <p className="content1">
+             It is a period of civil war. Rebel spaceships, striking from a hidden base, have won their first victory against the evil Galactic Empire. During the battle, Rebel spies managed to steal secret plans to the Empire's ultimate weapon, the DEATH STAR, ...
+          </p>
 
-            <hr className='break-line'/>
+          <hr className='break-line'/>
 
-            <footer className='link-below'>
-              <a
-                href="https://www.starwars.com/"
-                className="link1"
-                >
-                More Info
-              </a>
-            </footer>
-            </div>
-          </div> */}
+          <footer className='link-below'>
+            <a
+              href="https://www.starwars.com/"
+              className="link1"
+              >
+              More Info
+            </a>
+          </footer>
+          </div>
+        </div> */}
          {/* {users.map ((user, index) => {
           <div className="sub-title1">
             <div className="sub-content">
